@@ -12,7 +12,7 @@ $(document).ready(function () {
 		var $this = $(this);
 		var $parent = $this.parent();
 		jQuery({ Counter: 0 }).animate({ Counter: $this.text()}, {
-			duration: 3000,
+			duration: 4000,
 			easing: 'swing',
 			queue: false,
 			step: function () {
@@ -25,7 +25,7 @@ $(document).ready(function () {
 	});
 
 	
-	$('.progress-text').animate({opacity: '1', marginLeft: fundsMove + '%'}, { duration: 3000, easing: 'swing', queue: false });
+	$('.progress-text').animate({opacity: '1', marginLeft: fundsMove + '%'}, { duration: 4000, easing: 'swing', queue: false });
 	/*
 	$('.progress-bar').animate({width: '30%'}, { duration: 3000, easing: 'linear', queue: false });
 	*/
