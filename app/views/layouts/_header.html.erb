@@ -7,13 +7,14 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
           	</button>
-			<%= link_to "DR 2015", '#', id: "logo" %>
+			<%= link_to "DR 2015", '#', onClick: "return false;", id: "logo" %>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li><%= link_to "About", '#' %></li>
-				<li><%= link_to "Donate", '#' %></li>
+				<li><%= link_to "About", '#', onClick: "return false;" %></li>
+				<li><%= link_to "Donate", '#', onClick: "return false;" %></li>
 			</ul>
 		</div>
+		<div class="nav-selector"></div>
 	</div>
 </div>
